@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            background-color: lightblue;
+        }
+        select
+        {
+            width: 495px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1 align="center">Fill this form</h1>
+    <form action="welcome.html">
+        <input type="text" name="first name" placeholder="Enter your first name" style="width: 240px; height: 30px; color: rgb(8, 1, 1);" required>
+        <input type="text" name="last name" placeholder="Enter your last name" style="width: 240px; height: 30px; color: rgb(8, 1, 1);" required>
+        <br><br>
+        <input type="text" name="email" placeholder="Enter your email" style="width: 495px; height: 30px; color: rgb(8, 1, 1);" required>
+        <br><br>
+        <input type="text" name="phone" placeholder="Enter your phone" style="width: 495px; height: 30px; color: rgb(8, 1, 1);" required>
+        <br><br>
+        <input type="password" name="password" placeholder="password" style="width: 495px; height: 30px; color: rgb(8, 1, 1);" required>
+        <br><br>
+        <input type="file" name="image" placeholder="image" style="width: 495px; height: 30px; color: rgb(8, 1, 1);" required>
+        <br><br>
+        <label>Appointment date & time</label>
+        <br>
+        <input type="datetime-local" name="dob" placeholder="date" style="width: 495px; height: 30px; color: rgb(8, 1, 1);" required>
+        <br><br>
+        <select name="state">
+        <option value="">-select state-</option>
+        <option value="1">Rajkot</option>
+        <option value="2">Ahemdabad</option>
+        <option value="3">Surat</option>
+        <option value="4">Junagadh</option></select>
+        <br><br>
+        <select name="city">
+            <option value="">-select your city-</option>
+        <option value="1">Gujrat</option>
+        <option value="2">maharashtra</option>
+        <option value="3">delhi</option>
+        <option value="4">rajashthan</option></select>
+        <br><br>
+        <input type="submit" name="submit" value="submit" style="width: 150px; height: 30px; background-color: blue; border: 0cap; color: rgb(250, 243, 243);" required>
+        
+        <input type="Reset" name="reset" value="Reset" style="width: 150px; height: 30px; background-color: rgb(236, 19, 19); border: 0cap; color: rgb(245, 239, 239);" required>
+        <br><br>
+        
+
+
+
+
+
+
+
+
+
+    </form>
+    </center>
+    
+</body>
+</html>
